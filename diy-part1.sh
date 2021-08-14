@@ -15,4 +15,4 @@
 
 # Add a feed source
 echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'svn co https://github.com/liuran001/openwrt-packages/branches/packages' >>feeds.conf.default
